@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 
-st.set_page_config(page_title="Girlfriend Mood Predictor 💕", layout="centered")
+st.set_page_config(page_title="Girlfriend Mood Predictor💕", layout="centered")
 
 # 1. Pink theme & styling
 st.markdown(
@@ -58,8 +58,8 @@ st.markdown("""
 <div style="background-color:#ffccd5; padding:15px; border-radius:10px; margin-bottom:20px;">
     <h3 style="color:#b30059;">🚨 Warning! 🚨</h3>
     <p style="color:#660033; font-size:13px;">
-        This mood predictor is lovingly trained by a girlfriend trying to help her boyfriend understand her better. 
-        Results may cause sudden urges to apologize, hug, or buy biryani. Use with care — and lots of love! 💖
+        This mood predictor is a Machine Learning model trained on thoughtfully crafted emotional and behavioral data.
+        ⚠️Results may cause sudden urges to apologize, hug, or buy biryani. Use with care — and lots of love! 💖
     </p>
 </div>
 """, unsafe_allow_html=True)
@@ -69,7 +69,7 @@ model = joblib.load("model.pkl")
 scaler = joblib.load("scaler.pkl")
 
 # 4. App title and description
-st.title("💖 Girlfriend Mood Predictor")
+st.title("💖Girlfriend Mood Predictor")
 st.write("Answer a few simple questions to estimate her mood today!")
 
 # 5. Input fields
