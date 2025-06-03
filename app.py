@@ -81,7 +81,7 @@ user_input = {
     "gave_compliments": st.selectbox("Did you give her compliments today?", ["-- Select --", "yes", "no"]),
     "unresolved_argument": st.selectbox("Do you have any unresolved argument?", ["-- Select --", "none", "mild", "serious"]),
     "expressed_love": st.selectbox("Did you express your love today?", ["-- Select --", "yes", "no"]),
-    "self_care": st.selectbox("Did she spend time for self-care?", ["-- Select --", "yes", "no"]),
+    "self_care": st.selectbox("Did she spend time for self-care?(exercise, journaling etc.)", ["-- Select --", "yes", "no"]),
     "ate_fav_food": st.selectbox("Did she eat something she loves today?", ["-- Select --", "yes", "no"]),
     "menstrual_phase": st.selectbox("Where is she in her menstrual cycle?", ["-- Select --", "unknown", "early", "mid", "PMS"]),
     "out_with_friends_hrs": st.slider("How many hours were you out with friends without her?", 0, 10),
